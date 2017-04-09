@@ -2,7 +2,7 @@
 /**
  * Locale
  *
- * @version    0.1 (2017-03-20 00:21:00 GMT)
+ * @version    0.2 (2017-04-09 01:57:00 GMT)
  * @author     Peter Kahl <peter.kahl@colossalmind.com>
  * @copyright  2015-2017 Peter Kahl
  * @license    Apache License, Version 2.0
@@ -20,13 +20,15 @@
  * limitations under the License.
  */
 
+namespace locale;
+
 class locale {
 
   /**
    * Version
    * @var string
    */
-  const VERSION = '0.1';
+  const VERSION = '0.2';
 
   #===================================================================
 
@@ -291,6 +293,9 @@ class locale {
     }
     elseif ($code == 'ap') { # Asia Pacific
       return 'en_US';
+    }
+    elseif ($code == 'cs') {
+       return 'sr_RS';
     }
     #----
     if ($code == 'uk') {
