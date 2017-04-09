@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "locale\\": "locale"
+            "locale\\": "src/locale"
         }
     }
 }
