@@ -1,5 +1,6 @@
 {
     "name": "colossalmind/locale",
+    "description": "Converts country code to locale code.",
     "homepage": "https://github.com/peterkahl/Country-to-Locale",
     "license": "Apache License Version 2.0",
     "authors": [
