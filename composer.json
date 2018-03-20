@@ -4,7 +4,7 @@
     "description": "Converts country code to locale code.",
     "keywords": ["locale", "localization", "language-code"],
     "homepage": "https://github.com/peterkahl/Country-to-Locale",
-    "license": "Apache License Version 2.0",
+    "license": "Apache-2.0",
     "authors": [
         {
             "name": "Peter Kahl",
